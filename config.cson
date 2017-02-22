@@ -1,0 +1,53 @@
+"*":
+  "activate-power-mode":
+    screenShake:
+      enabled: false
+  core:
+    themes: [
+      "seti-ui"
+      "cyber-syntax"
+    ]
+  editor:
+    fontSize: 13
+    tabLength: 4
+    tabType: "soft"
+  "exception-reporting":
+    userId: "cddc7199-2586-f8e7-d53e-b272830d78ff"
+  "git-plus":
+    general:
+      _analyticsUserId: "73f61373-b578-4c0d-a2e7-2b3398850fae"
+  linter:
+    errorPanelHeight: 24
+  minimap:
+    plugins:
+      cursorline: true
+      cursorlineDecorationsZIndex: 0
+      "find-and-replace": true
+      "find-and-replaceDecorationsZIndex": 0
+      "git-diff": true
+      "git-diffDecorationsZIndex": 0
+      linter: true
+      linterDecorationsZIndex: 0
+      pigments: true
+      pigmentsDecorationsZIndex: 0
+      "split-diff": true
+      "split-diffDecorationsZIndex": 0
+  "seti-ui":
+    compactView: true
+  welcome:
+    showOnStartup: false
+".c.source":
+  editor:
+    tabLength: 4
+".cpp.source":
+  editor:
+    tabLength: 4
+".objc.source":
+  editor:
+    tabLength: 4
+".objcpp.source":
+  editor:
+    tabLength: 4
+".source.strings":
+  editor:
+    tabLength: 4

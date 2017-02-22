@@ -1,0 +1,98 @@
+{
+  "name": "eval-javascript",
+  "main": "./lib/eval-javascript",
+  "version": "1.2.0",
+  "description": "Runs JavaScript in Atom",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/douglascalhoun/eval-javascript.git"
+  },
+  "activationCommands": {
+    "atom-text-editor": [
+      "eval-javascript:eval-javascript"
+    ]
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.39.0"
+  },
+  "dependencies": {
+    "coffee-script": "1.7.x"
+  },
+  "readme": "# Eval JavaScript\n\n* Select one or more lines of JavaScript with your cursor\n* `cmd-i` runs it in the console\n\nThis package shamelessly forked from [robenkleene](https://github.com/robenkleene/run-in-atom)'s [run-in-atom](https://atom.io/packages/run-in-atom), with the following differentiating features:\n\n* Cleaner console.log's\n* Can evaluate JS in &lt;script&gt; tags\n* Probably broke a bunch of stuff\n",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/douglascalhoun/eval-javascript/issues"
+  },
+  "homepage": "https://github.com/douglascalhoun/eval-javascript#readme",
+  "_id": "eval-javascript@1.2.0",
+  "_shasum": "aab5f84278742a418f9588a24750b858fa657cee",
+  "_resolved": "file:../d-116724-5058-1y1ypaf/package.tgz",
+  "_from": "../d-116724-5058-1y1ypaf/package.tgz",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [
+      {
+        "name": "coffee-script",
+        "version": "1.7.1",
+        "path": "node_modules/coffee-script/lib/coffee-script/coffee-script.js"
+      },
+      {
+        "name": "mkdirp",
+        "version": "0.3.5",
+        "path": "node_modules/coffee-script/node_modules/mkdirp/index.js"
+      }
+    ],
+    "extensions": {
+      ".coffee": [
+        "lib/eval-javascript.coffee"
+      ],
+      ".js": [
+        "node_modules/coffee-script/lib/coffee-script/browser.js",
+        "node_modules/coffee-script/lib/coffee-script/cake.js",
+        "node_modules/coffee-script/lib/coffee-script/coffee-script.js",
+        "node_modules/coffee-script/lib/coffee-script/command.js",
+        "node_modules/coffee-script/lib/coffee-script/grammar.js",
+        "node_modules/coffee-script/lib/coffee-script/helpers.js",
+        "node_modules/coffee-script/lib/coffee-script/index.js",
+        "node_modules/coffee-script/lib/coffee-script/lexer.js",
+        "node_modules/coffee-script/lib/coffee-script/nodes.js",
+        "node_modules/coffee-script/lib/coffee-script/optparse.js",
+        "node_modules/coffee-script/lib/coffee-script/parser.js",
+        "node_modules/coffee-script/lib/coffee-script/register.js",
+        "node_modules/coffee-script/lib/coffee-script/repl.js",
+        "node_modules/coffee-script/lib/coffee-script/rewriter.js",
+        "node_modules/coffee-script/lib/coffee-script/scope.js",
+        "node_modules/coffee-script/lib/coffee-script/sourcemap.js",
+        "node_modules/coffee-script/node_modules/mkdirp/examples/pow.js",
+        "node_modules/coffee-script/node_modules/mkdirp/index.js",
+        "node_modules/coffee-script/register.js"
+      ],
+      ".json": [
+        "node_modules/coffee-script/node_modules/mkdirp/package.json",
+        "node_modules/coffee-script/package.json",
+        "package.json"
+      ]
+    },
+    "folders": [
+      {
+        "paths": [
+          "lib",
+          ""
+        ],
+        "dependencies": {
+          "coffee-script": "1.7.x"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/coffee-script/lib/coffee-script",
+          "node_modules/coffee-script"
+        ],
+        "dependencies": {
+          "mkdirp": "~0.3.5"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,2 @@
+'atom-text-editor':
+  'cmd-i': 'eval-javascript:eval-javascript'
